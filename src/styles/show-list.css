@@ -1,0 +1,17 @@
+.list-of-shows{
+    display: flex;
+    flex-wrap: wrap;
+    gap:40px;
+    justify-content: center;
+    /* box-shadow:10px 10px 5px; */
+    margin-top:30px
+}
+
+.show{
+    box-shadow:5px 5px 5px black;
+    transition: transform .2s
+
+}
+.show:hover{
+    transform: scale(1.02);
+}
